@@ -2,5 +2,15 @@ https://us.api.blizzard.com/data/wow/connected-realm/1146/auctions?namespace=dyn
 
  the Connected Realm API is 11 for Tichondrius
 
- 1. I searched through the connectedRealms API to find the realm i use.
- 2. using 
+searched through the connectedRealms API to find the realm i use.
+
+
+website i am looking at to try and build off:
+/inspiration
+
+https://jpworgen.com/#/d/item-view?orgId=1
+
+https://wowauction.us/
+
+
+my token expires:   "expires_in": 86399,
