@@ -3,7 +3,7 @@
   import { onMount } from "svelte";
   import {
     getSearchResults,
-    getServerSideProps,
+    getProps,
     searchResults,
     token,
   } from "../getToken.svelte";
@@ -15,7 +15,7 @@
 
 
   onMount(async () => {
-    getServerSideProps().then(() => {
+    getProps().then(() => {
       token.subscribe((value) => {
         getSearchResults(value, query);
       });

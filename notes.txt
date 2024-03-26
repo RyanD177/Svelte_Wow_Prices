@@ -14,3 +14,6 @@ https://wowauction.us/
 
 
 my token expires:   "expires_in": 86399,
+
+https://svelte.dev/docs/svelte-store#writable
+https://svelte.dev/docs/svelte-animate
